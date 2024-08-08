@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    font-family: 'Montserrat';
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #F6F8FB;
+}
+
+.navbar ul li a {
+    color: #ffff !important;
+}
+.navbar ul li:last-child a {
+    background-color: #F6DE6C;
+    border-radius: 50px;
+    color: #065C99 !important;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.navbar ul li:last-child a svg path {
+    fill: #065C99;
+}
+.banner {
+    height: 787px;
+}
+.banner h1 {
+    margin-top: 6.5rem;
+    color: #fff;
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 57px;
+}
+.banner p {
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+}
+.box-form {
+    margin-top: 6.5rem;
+    background-color: #fff;
+    padding: 20px 45px;
+    border-radius: 15px;
+}
+.box-form h2 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #424242;
+}
+.box-form p {
+    color: #494949;
+    font-size: 16px;
+    font-weight: 400;
+}
+.box-form .form-design {
+    background-color: #F5F7F9;
+    height: 10vh;
+}
+.box-form .form-design .form-control,
+.box-form .form-design .form-select {
+    background-color: transparent;
+    border: none;
+}
+
+.box-form button {
+    background-color: #F6DE6C !important;
+    border: none !important;
+    border-radius: 50px;
+    padding: 15px 10px;
+    color: #494949 !important;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.box-form .form-check{
+    font-family: Montserrat;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.4px;
+    color: #6C6C6C
+}
+
+.quem-somos h3 {
+    color:#171524;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.quem-somos .text-color {
+    color:#065C99;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.quem-somos .box-informacao {
+    background-color: #fff;
+    border-radius: 40px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.quem-somos .box-informacao h4 {
+    color: #065C99;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.quem-somos .box-informacao .texto {
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.quem-somos .box-informacao img {
+    border-radius: 40px;
+}
+
+.como-funciona .texto-principal{
+    color: #171524;
+    font-size: 48px;
+    font-weight: 700;
+
+}
+
+.como-funciona .box-passos {
+    background-color: #fff;
+    color: #636363;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 17px;
+    padding: 13px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.como-funciona .passos{
+    background-color: #065C99;
+    color: #fff;
+    width: 186px;
+    /* height: 56px; */
+    border-radius: 17px;
+    padding: 13px;
+    top: -22px;
+}
+
+.esta-empresa h6 {
+    color: #171524;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.esta-empresa img {
+    height: 448.4px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.esta-empresa .ipsum {
+    background-color: #fff;
+    color: #171524;
+    /* width: 186px; */
+    /* height: 56px; */
+    border-radius: 17px;
+    padding: 13px;
+    top: -22px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.esta-empresa .subtexto {
+    color: #636363;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.box-ipsum img {
+    width: 61px;
+    height: 61px;
+}
+
+.faq h2 {
+    color: #00578C;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.faq span {
+    color: #171524;
+    font-size: 48px;
+    font-weight: 700;
+}
+footer {
+    background-color: #19407E;
+    padding: 54px 0;
+}
+
+footer ul li:first-child {
+    font-weight: 700;
+    font-size: 16px;
+}
+footer ul li {
+    font-size: 14px;
+    color: #fff;
+}
+footer .cnpj {
+    color: #fff;
+    position: relative;
+    top: 10px;
+}
+.copy {
+    background-color: #0B2B5F;
+    padding: 20px 0;
+}
+.copy span {
+    color: #B7B7B7;
+}
+.copy span b {
+    color: #fff;
+}
+.formulario-celular {
+    display: none;
+}
+@media (max-width: 430px) {
+    .navbar {
+        background-color: #093767;
+        text-align: center;
+    }
+    .formulario-celular {
+        display: block;
+    }
+    .banner {
+        background: url('../img/fundo_celular.png') !important;
+    }
+    .banner .box-form {
+        display: none;
+    }
+    .box-form {
+        margin: 0;
+    }
+    .quem-somos h3,
+    .quem-somos span,
+    .esta-empresa h6,
+    .faq h2,
+    .faq span {
+        font-size: 36px !important;
+    }
+    footer ul {
+        text-align: center;
+        margin-top: 1rem;
+    }
+}
